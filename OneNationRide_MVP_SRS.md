@@ -8,6 +8,37 @@ This document outlines the essential features and requirements for the Minimum V
 
 OneNationRide MVP is an intercity/intracity ride-sharing application developed for Android using Kotlin and Firebase as the backend infrastructure.
 
+## 🎯 MVP Feature Set
+
+### 🚘 Ride Creation & Discovery (Core)
+
+- Create ride offer: source, destination, date/time, seats, price, preferences.
+- Search rides: filter by location, date, available seats, and date.
+- Ride details page: driver info, vehicle details, booking button.
+
+### 👥 Booking & Management
+
+- Book/request a ride (real-time seat availability).
+- Manage upcoming and past bookings.
+- Cancel booking (basic logic).
+
+### 💬 In-App Chat (Post Booking)
+
+- Lightweight chat via Firebase (Firestore or Realtime DB).
+- Chat available only after confirmed booking.
+
+### ⭐ Ratings & Reviews
+
+- Rate driver and passenger after the ride (1–5 stars + optional comment).
+- Basic rating visible on profile.
+
+## 🔐 Essential Components
+
+- Firebase Authentication (phone-based login).
+- User Profiles (passenger & driver roles, car info, profile photo).
+- Firebase Firestore (NoSQL DB) + Cloud Functions.
+- Google Maps API for location services.
+
 ## 3. Core MVP Requirements
 
 ### 3.1 Authentication & User Profile Management
@@ -110,6 +141,30 @@ The following features are acknowledged but deliberately excluded from MVP:
 | POST-MVP-006 | Localization | Multi-language Support | Phase 3           |
 
 ---
+
+## 7. Technology Stack
+
+## 🧰 Tech Stack Overview
+
+| Component       | Technology                     |
+| --------------- | ------------------------------ |
+| Mobile App      | Android Kotlin                 |
+| Backend & DB    | Firebase Firestore             |
+| Auth            | Firebase Authentication        |
+| Messaging       | Firebase Cloud Messaging (FCM) |
+| Chat            | Firestore or Realtime DB       |
+| Maps            | Google Maps API                |
+| Emergency Alert | Twilio or local SMS API        |
+
+## 📆 Timeline (3–5 Months)
+
+| Month | Tasks                                                    |
+| ----- | -------------------------------------------------------- |
+| 1     | Firebase setup, auth, UI/UX design, user profile screens |
+| 2     | Ride creation, search, Firestore structure               |
+| 3     | Booking flow, chat module, emergency feature             |
+| 4     | Ratings, bug fixing, pilot user testing                  |
+| 5     | Final changes, beta launch on Play Store                 |
 
 Version: 1.0
 Last Updated: April 30, 2025
