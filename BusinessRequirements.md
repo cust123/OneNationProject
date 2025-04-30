@@ -72,7 +72,6 @@ To create Pakistan's leading first community driven ride-sharing platform that c
 | -------------- | ------------------ | ------------------------------------------------------------------------------------------- | -------- |
 | BR-013         | Emergency Response | - Response time < 5 minutes<br>- 24/7 emergency support<br>- Clear safety protocols         | Critical |
 | BR-014         | Trip Monitoring    | - Real-time tracking accuracy > 95%<br>- Regular safety check-ins<br>- Incident rate < 0.1% | Critical |
-| BR-015         | Insurance Coverage | - Comprehensive trip insurance<br>- Clear claim process<br>- Quick settlement timeline      | High     |
 
 ### 3.6 Feedback & Quality
 
@@ -124,5 +123,4 @@ To create Pakistan's leading first community driven ride-sharing platform that c
 
 ---
 
-**Version:** 3.0
 **Last Updated:** April 30, 2025
