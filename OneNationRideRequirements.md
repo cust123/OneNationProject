@@ -105,7 +105,7 @@
 | NFR002         | Scalability  | Support for 10,000+ concurrent users                      |
 | NFR003         | Security     | End-to-end encryption for sensitive data                  |
 | NFR004         | Availability | 99.9% uptime guarantee                                    |
-| NFR005         | Compliance   | GDPR and local transportation data protection regulations |
+| NFR005         | Compliance   | GDPR and local data protection regulations and compliance |
 
 ## 5. Security Requirements
 
@@ -126,5 +126,9 @@
 | TR004          | API        | RESTful APIs with OAuth 2.0 |
 
 ---
+
+# Note: the technology stack and TR are not fully decided, after the complete system desgin we will be in a position to decide the technology stack.
+
+system design
 
 **Version:** 2.0 (April 30, 2025)
