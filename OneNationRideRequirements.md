@@ -99,13 +99,13 @@
 
 ## 4. Non-Functional Requirements
 
-| Requirement ID | Category     | Description                               |
-| -------------- | ------------ | ----------------------------------------- |
-| NFR001         | Performance  | App response time < 3 seconds             |
-| NFR002         | Scalability  | Support for 100,000+ concurrent users     |
-| NFR003         | Security     | End-to-end encryption for sensitive data  |
-| NFR004         | Availability | 99.9% uptime guarantee                    |
-| NFR005         | Compliance   | GDPR and local transportation regulations |
+| Requirement ID | Category     | Description                                               |
+| -------------- | ------------ | --------------------------------------------------------- |
+| NFR001         | Performance  | App response time < 3 seconds                             |
+| NFR002         | Scalability  | Support for 10,000+ concurrent users                      |
+| NFR003         | Security     | End-to-end encryption for sensitive data                  |
+| NFR004         | Availability | 99.9% uptime guarantee                                    |
+| NFR005         | Compliance   | GDPR and local transportation data protection regulations |
 
 ## 5. Security Requirements
 
