@@ -1,7 +1,7 @@
 # 📚 Project Requirements
 
-Welcome to the requirements documentation for our key systems:
+Welcome to the requirements documentation for our One Nation Application:
 
-- [🚗 OneNationRide Requirements](OneNationRide_Requirements.md)
+- [🚗 OneNationRide Full Requirements](OneNationRideRequirements.md)
 - [🕵️‍♂️ OneNationRide_MVP_SRS](OneNationRide_MVP_SRS.md)
-- [🤖 OneNationRide_MVP_Requirements](OneNationRide_MVP_Requirements.md)
+- [🤖 BusinessRequirements](BusinessRequirements.md)
